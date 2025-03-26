@@ -2,6 +2,7 @@ import random
 
 user_win = 0
 comp_win = 0
+draw = 0
 options = ["rock", "paper", "scissors"]
 while True:
     user_input = input(
@@ -23,18 +24,21 @@ while True:
         user_win += 1
         continue
 
-    if user_input == "paper" and comp_pick == "rock":
+    elif user_input == "paper" and comp_pick == "rock":
         print("Congratulations You won!!! ")
         user_win += 1
         continue
 
-    if user_input == "scissors" and comp_pick == "paper":
+    elif user_input == "scissors" and comp_pick == "paper":
         print("Congratulations You won!!! ")
         user_win += 1
         continue
-    if user_input == comp_pick:
+
+    elif user_input == comp_pick:
         print("It's a Draw!!!")
+        draw += 1
         continue
+
     else:
         print("You Lost The Game :( !!! ")
         comp_win += 1
@@ -42,5 +46,5 @@ while True:
 print("You Have won", user_win, "times.")
 print("The computer has won", comp_win, "times.")
 print(
-    f"Final Score is \n Wins:{user_win} \n Lose:{abs(int(user_win) - int(comp_win))}")
+    f"Final Score is \n Wins:{user_win} \n Lose:{abs(int(user_win) - int(comp_win))}\n Draw:{draw}")
 print("GoodBye!!!!!!!!!!")
