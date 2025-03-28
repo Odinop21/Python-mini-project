@@ -22,6 +22,25 @@
 
    * The program provides hints if the guess is too high or too low.
 
+4. Adventure Game
+
+Welcome to the Adventure Game! 🌍⚔️ This is a text-based interactive game where you, the player, make choices that determine your fate. Each decision you make influences the outcome of your journey, leading to different paths, challenges, and endings.
+
+🕹️ How to Play
+
+The game presents you with a scenario and multiple choices.
+
+Type the number or letter corresponding to your choice and press Enter.
+
+Your choices will shape the story, leading to different challenges and consequences.
+
+Think wisely—some decisions might lead to treasure, while others might lead to danger!
+
+🔥 Features
+
+✅ Interactive storytelling with multiple endings.✅ Different paths based on your choices.✅ Engaging adventures with unique challenges.✅ Simple text-based gameplay—just read and choose!
+
+
 ===> Getting Started
 
 *** Prerequisites ***
